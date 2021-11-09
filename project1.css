@@ -1,0 +1,91 @@
+body {
+    background: url("curtain.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    font-family: "Alfa Slab One", cursive;
+    text-shadow: 1px 1px black;
+    display: inline-block;
+    display: flex;
+}
+
+header img {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+input[type="submit"] {
+  background-color: #d80000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+main legend {
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    -webkit-text-stroke: 1px #d80000;
+}
+
+.choices {
+    margin-bottom: 25px;
+    text-align: center;
+    border: none;
+}
+
+section.results {
+    color: white;
+    font-size: 1.6rem;
+    -webkit-text-stroke: 1px #d80000;
+}
+
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: 0px;
+    left: -1px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: 0px;
+    left: -1px;
+    position: relative;
+    background-color: #d80000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+footer {
+    font-size: x-small;
+    margin-top: 100px;
+}

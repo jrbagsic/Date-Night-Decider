@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Date Night Decider</title>
+    <link rel="stylesheet" href="project1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+<link rel = "icon" href = "heart.png" type = "image/x-icon">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>
+            <img src="banner.jpg" alt="The Date Night Decider">
+        </header>   
+
+        <main>
+            <form action="">
+             <fieldset class="choices">
+                <legend>What Season Is It?</legend>
+                <label for="summer">Summer</label>
+				<input type="radio" id="summer" value="summer" name="season">
+
+                <label for="winter">Winter</label>
+				<input type="radio" id="winter" value="winter" name="season">
+             </fieldset>
+
+            <fieldset class="choices">
+                <legend>What Is The Vibe?</legend>
+                <label for="casual">Casual</label>
+				<input type="radio" id="casual" value="casual" name="vibe">
+
+                <label for="formal">Formal</label>
+				<input type="radio" id="formal" value="formal" name="vibe">
+
+                <label for="adventurous">Adventurous</label>
+				<input type="radio" id="adventurous" value="adventurous" name="vibe">
+            </fieldset>
+
+            <fieldset class="choices">
+                <legend>What Kind Of Activity?</legend>
+                <label for="eat">Something To Eat</label>
+				<input type="radio" id="eat" value="eat" name="activity">
+
+                <label for="do">Something To Do</label>
+				<input type="radio" id="do" value="do" name="activity">
+            </fieldset>
+
+            <input type="submit" value="Your Date Night">
+            </form>
+
+            <section class="results"></section>
+
+            <footer>Created at Juno College</footer>
+    
+        </main>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="project1.js"></script>
+</body>
+</html>
